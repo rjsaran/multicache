@@ -1,6 +1,6 @@
 {
   "name": "multicache",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Multiple Object Caching",
   "main": "./lib/cache",
   "scripts": {},
