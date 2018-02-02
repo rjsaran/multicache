@@ -70,7 +70,7 @@ Redis Store:
 
 | Key           | Type          | Description            | Default |
 |:-------------:|:-------------:| :---------------------:|:--------:|
-| maxAge        | Integer       | Maximum no of keys in LRU store| 60 Seconds|
+| maxAge        | Integer       | TTL in miliseconds             | 60 Seconds|
 | db            | Integer       | Redis Server DB                | 0         |
 | prefix        | String        | Prefix to be used for redis key| mbc:      |
 | twemproxy     | Boolean       | Redis server is behind twemproxy or not| false |
