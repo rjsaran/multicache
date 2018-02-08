@@ -1,5 +1,5 @@
 {
-  "name": "multicache",
+  "name": "node-multicache",
   "version": "0.2.0",
   "description": "Multiple Object Caching",
   "main": "./lib/cache",
