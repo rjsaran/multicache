@@ -2,7 +2,7 @@
 
 const Cache = require('./lib/cache');
 
-let cache = Cache.stats.register(new Cache('redis', {maxAge: 10 * 60 * 1000, reset: {interval: 100 * 1000}}), 'mycache');
+let cache = Cache.stats.register(new Cache('redis', {maxAge: 30 * 1000, reset: {interval: 100 * 1000}}), 'mycache');
 
 let opts = {
   'columns': ['id', 'price']
