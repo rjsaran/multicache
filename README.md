@@ -10,7 +10,7 @@ Currently 2 stores are supported.
  - Memory
  - Redis
  
- Multicache First check for each item in cache parallely, Than do only one singlr call to fetch data from underlying datastore for which no data is present in cache. Respond with data from both Cache and Main data store merged.
+ Multicache First check for each item in cache parallely, Than do only one single call to fetch data from underlying datastore for which no data is present in cache. Respond with data from both Cache and Main data store merged.
 
 
  Usage
